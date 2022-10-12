@@ -1,0 +1,101 @@
+@media only screen and (max-width: 767px) {
+    .our-services .swiper-button-prev {
+        display: none;
+    }
+    .our-services .swiper-button-next {
+        display: none;
+    }
+
+
+
+    
+    
+    .testimoni .swiper-button-prev {
+        display: none;
+    }
+    .testimoni .swiper-button-next {
+        display: none;
+    }
+} 
+
+@media only screen and (max-width: 992px) {
+    .why-us .fitur-item p {
+        font-size: 12px;
+    }
+
+    .penawaran .d-lg-flex a {
+        font-size: 14px;
+    }
+
+
+    .our-services .swiper-slide-next .service-box .box-img::before {
+        border:2px dashed #277EFF;
+        
+    }
+
+    .our-services .swiper-slide-next {
+        transform: none;
+    }
+    .our-services .swiper-slide-next .service-box {
+        background: #fff;
+    }
+    
+    .our-services .swiper-slide-next .service-box .box-img {
+        background: #277EFF;
+    }
+    
+    .our-services .swiper-slide-next .service-box .box-img img {
+        filter: brightness(0) invert(1);
+    }
+    
+    .our-services .swiper-slide-next .service-box h5{
+        color: #000;
+    }
+    
+    .our-services .swiper-slide-next .service-box p{
+        color: #000;
+    }
+    
+    .our-services .swiper-slide-next .service-box .btn-klik{
+        background: #277EFF;
+    }
+    
+    .our-services .swiper-slide-next .service-box .btn-klik a {
+        color: #fff !important;
+    }
+
+    .our-services .swiper-button-prev {
+        left: -10px;
+    }
+    .our-services .swiper-button-next {
+        right: -10px;
+    }
+
+
+    .testimoni .swiper-slide-next {
+        transform: none;
+    }
+    .testimoni .swiper-slide-next .testi-box {
+        background: transparent ;
+        color: #000;
+        border: 1px solid #000;
+    }
+    
+    .testimoni .swiper-slide-next .testi-box .box-profil::after{
+        background: #000;
+    }
+    
+    .testimoni .swiper-slide-next .testi-box .box-img {
+        background: #575757;
+    }
+
+
+    .testimoni .swiper-button-prev {
+        left: -10px;
+    }
+    .testimoni .swiper-button-next {
+        right: -10px;
+    }
+
+
+}
